@@ -7,20 +7,35 @@
     <style>
       body {
         background-image: url(wallanimation.gif);
+        position: relative;
       }
 
       h1 {
-        color: pink;
+        color: green;
         font-size: 48px;
+        font-family: "Times New Roman";
         text-align: center;
       }
+      
+      p {
+        color: yellow;
+        font-size: 20px;
+        text-align: center;
+        font-family: "Times New Roman", monospace;
+        margin-top: 0px;
+      }
+      
+      .other-text {
+        font-size: 16px;
+        text-align: center;
+        font-family: "Times New Roman", serif;
+        margin-top: 0px;
+      }
 
-      /* Style for all images */
       img {
         position: absolute;
       }
 
-      /* Style for individual images */
       #painting-1 {
         width: 20%;
         top: 25%;
@@ -42,22 +57,33 @@
       #trophywall {
         width: 20%;
         bottom: 0%;
-        left: 5%;   
+        left: 5%;  
+      }
         
       #couch {
-          
-        }
+        width: 50%;
+        bottom: 0%;
+        right: 5%;
+      }
       
+      #ghost {
+        width: 20%;
+        top: 10%;
+        left: 0%;
       }
       
     </style>
   </head>
   <body>
     <h1>Welcome to My Homepage</h1>
+    <p>Make yourself at home....</p>
+    <p class="other-text">Memphis's Home</p>
     <img src="painting-1.gif" alt="Painting" id="painting-1">
     <img src="painting-2.gif" alt="Painting" id="painting-2">
     <img src="painting-3.gif" alt="Painting" id="painting-3">
-  	<img src="trophywall.gif" alt="Painting" id="trophywall">
+    <img src="trophywall.gif" alt="Painting" id="trophywall">
+    <img src="j-couchkitty.gif" alt="cat on couch" id="couch">
+    <img src="pic_ghost.gif" alt="ghost" id="ghost">
   </body>
 </html>
 
