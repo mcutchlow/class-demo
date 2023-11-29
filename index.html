@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <title>Memphis's Home Page</title>
     <style>
-
       body {
-        background-image: url(hauntedvictorianhouse.gif)
+        background-image: url(wallanimation.gif);
       }
 
       h1 {
@@ -16,9 +15,36 @@
         text-align: center;
       }
 
+      /* Style for all images */
+      img {
+        position: absolute;
+      }
+
+      /* Style for individual images */
+      #painting-1 {
+        width: 20%;
+        top: 25%;
+        left: 37%;
+      }
+
+      #painting-2 {
+        width: 20%;
+        top: 28%;
+        left: 66%;
+      }
+
+      #painting-3 {
+        width: 20%;
+        top: 28%;
+        left: 8%;
+      }
     </style>
   </head>
   <body>
     <h1>Welcome to My Homepage</h1>
+    <img src="painting-1.gif" alt="Second GIF" id="painting-1">
+    <img src="painting-2.gif" alt="Third GIF" id="painting-2">
+    <img src="painting-3.gif" alt="Fourth GIF" id="painting-3">
   </body>
-</html>>
+</html>
+
